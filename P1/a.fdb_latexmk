@@ -1,14 +1,10 @@
 # Fdb version 4
-["pdflatex"] 1759326430.15369 "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" "a.pdf" "a" 1759326432.13696 0
+["pdflatex"] 1759326695.90391 "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" "a.pdf" "a" 1759326697.60753 0
   "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759326160 81107 70b8516c68c2e617189c5e44bfd16b96 ""
-  "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcti1728.pk" 1759326429 26196 6e9a4e9852cd542b7ad2bd53ecfe5043 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1739809083 24266277 d601ca014b0490cc3ae603357bf86733 ""
-  "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcti1728.tfm" 993062560 1616 b039c3107d481c66b028c11d489cc623 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
-  "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
@@ -30,9 +26,9 @@
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1718270727 2671 70891d50dac933918b827d326687c6e8 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1718270727 4023 2c9f39712cf7b43d3eb93a8bbd5c8f67 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1716480499 29785 9f93ab201fe5dd053afcc6c1bcf7d266 ""
-  "a.aux" 1759326431 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "a.tex" 1759326426 655 304a53476cc2b1591076113e24c2d607 ""
-  "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" 1759326426 655 304a53476cc2b1591076113e24c2d607 ""
+  "a.aux" 1759326697 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "a.tex" 1759326693 624 62aa9e2d47f000c5d482f6243e136c52 ""
+  "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" 1759326693 624 62aa9e2d47f000c5d482f6243e136c52 ""
   (generated)
   "a.aux"
   "a.log"
