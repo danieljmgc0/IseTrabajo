@@ -1,0 +1,166 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\geometry{margin=3cm}
+
+
+
+% Formato de Bibliografia
+\usepackage[backend=biber, sorting=none]{biblatex}
+\addbibresource{biblio.bib}
+\usepackage{csquotes}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    \vspace*{3cm}
+    {\Huge\bfseries Trabajo 1: Diseño de un experimento controlado \par}
+    \vspace{2cm}
+    {\Large\itshape Daniel Jiménez García \par}
+    {\Large\itshape Sergio Muñoz Gómez \par}
+    {\Large\itshape Ángela Caiqing Pousada Morán \par}
+    \vspace{1cm}
+    {\Large\itshape Fecha: \today \par}
+    \vfill
+    {\large Master MITSS. ISE \par}
+    {\large Universidad Politécnica de Valencia\par}
+\end{titlepage}
+
+
+% -------------------------------------------------------------------
+\chapter*{Resumen}
+\addcontentsline{toc}{chapter}{Resumen}
+
+Añadir resumen después de terminar el trabajo
+
+
+% -------------------------------------------------------------------
+\chapter{Motivación}
+
+\section{Problema a investigar}
+En la actualidad existen numerosos métodos para evaluar la usabilidad y experiencia de usuario (UX) a la hora de utilziar sistemas interactivos. Sin embargo, no existe un consenso claro sobre cuál de ellos resulta más adecuado para cada sistema.  
+El problema que se aborda en este trabajo es la falta de evidencia empírica que permita comparar la \textbf{efectividad, eficiencia y satisfacción de los evaluadores} cuando aplican un método empírico (\textit{A/B Testing}) frente a un método de inspección grupal (\textit{Recorrido Pluralista}).
+
+\section{Definición del experimento}
+Analizar los métodos de evaluación de usabilidad \textbf{A/B Testing} y \textbf{Recorrido Pluralista} con el propósito de comparar su capacidad para detectar problemas de usabilidad y medir su impacto en la satisfacción y eficiencia de los evaluadores.
+
+\section{Contexto}
+El experimento se llevará a cabo en un entorno controlado de laboratorio, sobre un prototipo web de complejidad media. Se contará con estudiantes de ingeniería de software y diseño UX como participantes. Cada sesión incluirá la realización de tareas específicas dentro del sistema y la evaluación mediante uno de los dos métodos propuestos.
+
+% -------------------------------------------------------------------
+\chapter{Trabajos relacionados}
+
+Diversos estudios previos han comparado métodos de evaluación de usabilidad. Nielsen (1994) definió la \textit{Evaluación Heurística} como técnica de inspección rápida, mientras que Rubin y Chisnell (2008) destacaron la importancia de los métodos empíricos como el \textit{User Testing} para observar comportamientos reales.  
+
+El \textbf{A/B Testing} se utiliza ampliamente en el ámbito web para medir diferencias en satisfacción y eficiencia entre dos versiones de una interfaz (Kohavi et al., 2009). Por su parte, el \textbf{Recorrido Pluralista} (Bias, 1994) combina la revisión de expertos, diseñadores y usuarios, permitiendo identificar problemas desde perspectivas diversas.
+
+A pesar de su uso extendido, no existen suficientes estudios comparativos entre ambos métodos bajo condiciones controladas, especialmente considerando variables subjetivas como satisfacción o percepción de facilidad de uso.
+
+% -------------------------------------------------------------------
+\chapter{Descripción del diseño}
+
+\section{Hipótesis y variables}
+
+\textbf{Hipótesis:}
+\begin{itemize}
+    \item $H_{01}$: No existen diferencias significativas en la \textbf{satisfacción} entre A/B Testing y Recorrido Pluralista.  
+    \item $H_{11}$: A/B Testing genera mayor satisfacción percibida que el Recorrido Pluralista.
+    \item $H_{02}$: No existen diferencias significativas en la \textbf{usabilidad percibida} entre los métodos.  
+    \item $H_{12}$: El Recorrido Pluralista detecta más problemas de usabilidad que A/B Testing.
+    \item $H_{03}$: No existen diferencias significativas en la \textbf{eficiencia} (tiempo medio de tareas).  
+    \item $H_{13}$: Los evaluadores son más eficientes (menor tiempo) usando A/B Testing.
+\end{itemize}
+
+\textbf{Variables:}
+\begin{itemize}
+    \item \textbf{Variable independiente:} Método de evaluación (A/B Testing, Recorrido Pluralista).
+    \item \textbf{Variables dependientes:}
+    \begin{itemize}
+        \item \textbf{Satisfacción:} medida mediante cuestionario Likert (1--7).
+        \item \textbf{Usabilidad:} puntuación SUS (\textit{System Usability Scale}).
+        \item \textbf{Eficiencia:} tiempo promedio (en segundos) para completar tareas.
+    \end{itemize}
+    \item \textbf{Variables de control:} tipo de tarea, complejidad del prototipo, experiencia previa de los participantes.
+\end{itemize}
+
+\section{Diseño del experimento}
+El experimento seguirá un diseño \textbf{intra-sujetos contrabalanceado}. Cada participante aplicará ambos métodos (A/B Testing y Recorrido Pluralista) sobre dos conjuntos de tareas diferentes, en sesiones separadas por 24 horas para mitigar los efectos de aprendizaje y fatiga.  
+El orden de aplicación de los métodos será aleatorizado para contrarrestar sesgos de orden.
+
+\section{Selección de sujetos}
+Se seleccionarán entre 16 y 20 participantes, con formación básica en usabilidad o experiencia de usuario. Los criterios de inclusión son:
+\begin{itemize}
+    \item Familiaridad con interfaces web.
+    \item No haber participado previamente en experimentos similares.
+\end{itemize}
+Cada participante firmará un consentimiento informado y completará un cuestionario demográfico inicial.
+
+\section{Objetos e instrumentación}
+Los objetos experimentales serán dos versiones de una aplicación web (versión A y versión B) con diferencias en diseño o disposición visual.  
+\begin{itemize}
+    \item \textbf{Instrumentos de medida:}  
+    - Cronómetro o software de registro (tiempo por tarea).  
+    - Cuestionario SUS (Brooke, 1996).  
+    - Escala de satisfacción Likert (1--7).  
+    - Registro de observaciones y errores detectados.  
+\end{itemize}
+
+\section{Evaluación de la validez}
+
+\textbf{Validez interna:} se controlará el efecto orden mediante contrabalanceo. Se mantendrá la misma complejidad de tareas y condiciones experimentales.  
+
+\textbf{Validez externa:} los resultados serán aplicables a contextos similares (evaluaciones de usabilidad de aplicaciones web con participantes semiexpertos).  
+
+\textbf{Validez de constructo:} las métricas SUS y Likert se seleccionan por su fiabilidad y validez en estudios de usabilidad.  
+
+\textbf{Validez de conclusión:} se emplearán pruebas t pareadas (o Wilcoxon si no hay normalidad) con $\alpha=0.05$, y tamaños del efecto (Cohen’s d) para cuantificar diferencias.
+
+% -------------------------------------------------------------------
+\chapter*{Referencias}
+\addcontentsline{toc}{chapter}{Referencias}
+\begin{itemize}
+	\item Esto es referncia buscada sobre qué es el pluralistic walk...\cite{PluralisticWalkthrough}
+\end{itemize}
+
+
+Lo de abajo es puro ChatGPT(no me escondo)
+\begin{itemize}
+    \item Bias, R. (1994). \textit{The Pluralistic Usability Walkthrough: Coordinated Empathies}. In Nielsen \& Mack (Eds.), Usability Inspection Methods.
+    \item Brooke, J. (1996). \textit{SUS: A Quick and Dirty Usability Scale}. Usability Evaluation in Industry.
+    \item Kohavi, R., Longbotham, R., Sommerfield, D., \& Henne, R. (2009). \textit{Controlled experiments on the web: Survey and practical guide}. Data Mining and Knowledge Discovery, 18(1).
+    \item Nielsen, J. (1994). \textit{Usability Engineering}. Morgan Kaufmann.
+    \item Rubin, J., \& Chisnell, D. (2008). \textit{Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests}. Wiley.
+    \item Wohlin, C., et al. (2012). \textit{Experimentation in Software Engineering}. Springer.
+\end{itemize}
+
+% BIBLIOGRAFIA %
+\cleardoublepage
+
+\printbibliography[heading=bibintoc,title={Bibliografía}]
+% -------------------------------------------------------------------
+\appendix
+
+\chapter{Anexo I: Tareas de evaluación}
+Cada participante completará un conjunto de tareas representativas en la aplicación web.  
+\begin{itemize}
+    \item \textbf{Tarea 1:} Localizar un producto y completar una compra simulada.  
+    \item \textbf{Tarea 2:} Cambiar una configuración de usuario en el perfil.  
+\end{itemize}
+En A/B Testing, se compararán tiempos y errores entre versiones A y B.  
+En el Recorrido Pluralista, se discutirán los pasos de interacción con un grupo de tres evaluadores (usuario, diseñador y experto).
+
+\chapter{Anexo II: Cuestionario de satisfacción y usabilidad}
+\begin{itemize}
+    \item Escala SUS (10 ítems, 1--5).  
+    \item Escala de satisfacción general (Likert 1--7).  
+    \item Preguntas abiertas sobre percepción del método aplicado.  
+\end{itemize}
+
+\end{document}
