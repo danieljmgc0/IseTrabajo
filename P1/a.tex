@@ -5,6 +5,9 @@
 \usepackage[spanish,es-tabla]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage[normalem]{ulem}
+\usepackage[colorlinks=false]{hyperref}
+\useunder{\uline}{\ulined}{}
 \geometry{margin=3cm}
 
 
@@ -127,39 +130,41 @@ En conjunto, este diseño experimental permitirá comparar de forma rigurosa y c
 
 \section{Selección de sujetos}
 
-La selección de los participantes se realizará de manera intencionada, buscando garantizar la representatividad del perfil de usuario objetivo del estudio: desarrolladores de software con conocimientos básicos en usabilidad o experiencia de usuario (UX). Dado que el propósito del experimento es comparar la aplicación de los métodos A/B Testing y Recorrido Pluralista desde la perspectiva de evaluadores técnicos, resulta fundamental que los sujetos cuenten con una comprensión general de los principios de diseño de interfaces y evaluación de sistemas interactivos.
+La selección de los participantes se realizará atendiendo a un perfil específico, compuesto por \textbf{desarrolladores de software} o \textbf{estudiantes avanzados} de ingeniería de software, diseño de interacción o disciplinas afines. Dado que el propósito del experimento es comparar la aplicación de los métodos \textbf{A/B Testing} y \textbf{Recorrido Pluralista} desde la perspectiva de evaluadores técnicos, resulta fundamental que los sujetos cuenten con una comprensión general de los principios de \textbf{diseño de interfaces} y de la \textbf{evaluación de sistemas interactivos}.
 
-El estudio se dirigirá a un grupo de entre 16 y 20 participantes, un tamaño muestral adecuado para un diseño intra-sujetos contrabalanceado, donde cada participante aplica ambos métodos. Este rango permite obtener una potencia estadística suficiente para detectar diferencias de tamaño medio (Cohen's $d \approx 0.5$) con un nivel de significación de 0.05, reduciendo a la vez la variabilidad interindividual.
+Asimismo, se promoverá la \textbf{diversidad} dentro del grupo de participantes, procurando incluir personas con diferentes trayectorias profesionales, niveles de experiencia, géneros, edades y contextos académicos. La incorporación de una muestra diversa permite enriquecer las perspectivas durante el proceso de evaluación, favoreciendo una interpretación más amplia y representativa de los resultados. En este contexto, la diversidad y la inclusión se entienden aquí como un compromiso con la \textbf{valoración equitativa de las aportaciones} de cada individuo, sin distinción de origen, identidad o condición personal.
+
+El estudio se llevará a cabo con un grupo de entre \textbf{10 y 15 participantes}, un tamaño muestral adecuado para un diseño intra-sujetos contrabalanceado, en el cual cada participante aplicará ambos métodos de evaluación. Este rango se considera suficiente para alcanzar una potencia estadística apropiada para detectar diferencias de magnitud media (Cohen’s d ≈ 0,5), garantizando al mismo tiempo la obtención de observaciones variadas sin llegar a la saturación de información.
 
 \subsection*{Criterios de inclusión}
 \begin{itemize}
     \item Ser desarrollador o estudiante avanzado de ingeniería de software, diseño de interacción o disciplinas afines.
-    \item Poseer conocimientos básicos sobre usabilidad o experiencia de usuario, acreditados mediante formación previa o experiencia práctica.
+    \item Poseer \textbf{conocimientos básicos} sobre usabilidad o experiencia de usuario (UX), acreditados mediante formación previa o experiencia práctica.
     \item Tener familiaridad con interfaces web interactivas.
-    \item Contar con disponibilidad para asistir a dos sesiones experimentales, separadas por al menos 24 horas.
-    \item Aceptar voluntariamente participar en el estudio, firmando el consentimiento informado.
+    \item Contar con \textbf{disponibilidad} para asistir a dos sesiones experimentales, separadas por al menos 24 horas.
+    \item Aceptar voluntariamente participar en el estudio, firmando el \textbf{consentimiento} informado.
 \end{itemize}
 
 \subsection*{Criterios de exclusión}
 \begin{itemize}
-    \item Haber participado previamente en el piloto del experimento o en estudios similares que involucren los mismos métodos.
-    \item Poseer un conocimiento profundo o especializado sobre los prototipos empleados, lo que podría sesgar la evaluación.
-    \item Presentar dificultades técnicas o de comunicación que impidan el correcto desarrollo de las tareas experimentales.
+    \item Haber \textbf{participado previamente} en el piloto del experimento o en estudios similares que involucren los mismos métodos.
+    \item Poseer un \textbf{conocimiento profundo} o \textbf{especializado} sobre los prototipos empleados, lo que podría sesgar la evaluación.
+    \item Presentar \textbf{dificultades técnicas} o de \textbf{comunicación} que impidan el correcto desarrollo de las tareas experimentales.
 \end{itemize}
 
 \subsection*{Procedimiento de reclutamiento}
-Los participantes serán reclutados a través de convocatorias internas en facultades de ingeniería y diseño, y mediante invitaciones personales a profesionales en activo del ámbito del desarrollo web. Se ofrecerá información detallada sobre los objetivos del estudio, la naturaleza de las tareas a realizar y la duración estimada de cada sesión (aproximadamente 60 minutos). La participación será voluntaria y no remunerada, aunque se podrá ofrecer una constancia de participación académica.
+Los participantes serán reclutados a través de convocatorias internas en \textbf{facultades de ingeniería} y \textbf{diseño}, y mediante \textbf{invitaciones personales} a profesionales en activo del ámbito del desarrollo web. Se ofrecerá información detallada sobre los objetivos del estudio, la naturaleza de las tareas a realizar y la duración estimada de cada sesión (aproximadamente 60 minutos). La participación será voluntaria y no remunerada, aunque se podrá ofrecer una constancia de participación académica.
 
 Antes de iniciar el experimento, cada participante completará un cuestionario demográfico donde se recogerán datos como edad, nivel educativo, años de experiencia en desarrollo, conocimiento previo de técnicas de evaluación de usabilidad y frecuencia de participación en proyectos web. Esta información servirá para describir la muestra y analizar posibles correlaciones entre la experiencia previa y las percepciones de los métodos evaluados.
 
 \subsection*{Consideraciones éticas}
-El estudio cumplirá con los principios éticos establecidos por la Declaración de Helsinki y las normas institucionales sobre investigación con participantes humanos. Todos los sujetos firmarán un consentimiento informado en el que se garantice:
+El estudio cumplirá con los principios éticos establecidos por la \href{https://cnrha.sanidad.gob.es/documentacion/bioetica/pdf/Helsinki.pdf}{\uline{Declaración de Helsinki}} y las normas institucionales sobre investigación con participantes humanos. Todos los sujetos firmarán un consentimiento informado en el que se garantice:
 \begin{itemize}
-    \item La confidencialidad de los datos recogidos.
-    \item El uso exclusivo de la información con fines académicos y de investigación.
-    \item La posibilidad de abandonar el estudio en cualquier momento, sin consecuencias.
+    \item La \textbf{confidencialidad} de los datos recogidos.
+    \item El \textbf{uso exclusivo} de la información con fines académicos y de investigación.
+    \item La posibilidad de \textbf{abandonar} el estudio en cualquier momento, sin consecuencias.
 \end{itemize}
-Asimismo, los datos personales serán anonimizados y almacenados de forma segura, cumpliendo con la normativa de protección de datos vigente.
+Asimismo, los datos personales serán anonimizados y almacenados de forma segura, cumpliendo con la \href{https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673}{\uline{normativa de protección de datos}} vigente.
 
 \section{Objetos e instrumentación}
 
@@ -181,7 +186,7 @@ Para la recogida de datos se emplearán distintos instrumentos de medición que 
 \begin{itemize}
     \item \textbf{Registro del tiempo empleado.} El tiempo empleado en la ejecución de las tareas se registrará mediante un cronómetro o software de registro automático, lo que permitirá calcular la eficiencia de cada participante en ambos métodos. 
     \item \textbf{Documentación de problemas de usabilidad.} Los problemas de usabilidad detectados se documentarán en una plantilla estructurada en la que constará su descripción, severidad y frecuencia de aparición.
-    \item \textbf{Cuestionario SUS.} Una vez finalizada cada sesión experimental, los participantes completarán el cuestionario, compuesto de diez preguntas con una escala de respuesta de 1 a 5, que permitirá evaluar de manera estandarizada la percepción de usabilidad del sistema.
+    \item \textbf{Cuestionario SUS.} Una vez finalizada cada sesión experimental, los participantes completarán el cuestionario, compuesto de 10 preguntas con una escala de respuesta de 1 a 5, que permitirá evaluar de manera estandarizada la percepción de usabilidad del sistema.
     \item \textbf{Escala de satisfacción.} Además, se incluirá una escala de satisfacción general de tipo Likert(1--7) que permitirá valorar el grado de satisfacción del participante con el método aplicado.
     \item \textbf{Preguntas abiertas.} Finalmente, se plantearán preguntas abiertas orientadas a recoger impresiones cualitativas sobre la experiencia, tales como la percepción de facilidad de uso, las ventajas y limitaciones de cada método o las dificultades encontradas durante la evaluación.  
 \end{itemize}
@@ -214,8 +219,6 @@ para investigaciones con participantes humanos.
 	\item Esto es referncia buscada sobre qué es el pluralistic walk...\cite{PluralisticWalkthrough}
 \end{itemize}
 
-
-Lo de abajo es puro ChatGPT(no me escondo)
 \begin{itemize}
     \item Bias, R. (1994). \textit{The Pluralistic Usability Walkthrough: Coordinated Empathies}. In Nielsen \& Mack (Eds.), Usability Inspection Methods.
     \item Brooke, J. (1996). \textit{SUS: A Quick and Dirty Usability Scale}. Usability Evaluation in Industry.
@@ -223,6 +226,7 @@ Lo de abajo es puro ChatGPT(no me escondo)
     \item Nielsen, J. (1994). \textit{Usability Engineering}. Morgan Kaufmann.
     \item Rubin, J., \& Chisnell, D. (2008). \textit{Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests}. Wiley.
     \item Wohlin, C., et al. (2012). \textit{Experimentation in Software Engineering}. Springer.
+    \item \href{https://tldv.io/es/blog/ux-research-how-many-users-do-you-need-for-usability-testing/}{\uline{Investigación UX: ¿Cuántos usuarios necesitas para las pruebas de usabilidad?}}
 \end{itemize}
 
 % BIBLIOGRAFIA %
