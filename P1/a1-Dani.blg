@@ -1,14 +1,14 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'a1-Dani.blg'
-[42] biber:340> INFO - === jue oct  9, 2025, 17:20:18
-[50] Biber.pm:418> INFO - Reading 'a1-Dani.bcf'
-[83] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
-[90] Biber.pm:4383> INFO - Processing section 0
-[96] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[96] bibtex.pm:1713> INFO - LaTeX decoding ...
-[98] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
-[122] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[122] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[123] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[125] bbl.pm:654> INFO - Writing 'a1-Dani.bbl' with encoding 'UTF-8'
-[126] bbl.pm:757> INFO - Output to a1-Dani.bbl
+[38] biber:340> INFO - === vie oct 10, 2025, 13:11:02
+[46] Biber.pm:418> INFO - Reading 'a1-Dani.bcf'
+[76] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[83] Biber.pm:4383> INFO - Processing section 0
+[89] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[89] bibtex.pm:1713> INFO - LaTeX decoding ...
+[91] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[116] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[116] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[116] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[119] bbl.pm:654> INFO - Writing 'a1-Dani.bbl' with encoding 'UTF-8'
+[119] bbl.pm:757> INFO - Output to a1-Dani.bbl
