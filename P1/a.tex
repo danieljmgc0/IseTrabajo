@@ -195,14 +195,30 @@ para investigaciones con participantes humanos.
 
 
 \section{Evaluación de la validez}
+En este apartado se evalúa la validez del diseño experimental propuesto, identificando posibles amenazas y las 
+medidas adoptadas para solucionarlas, con el fin de garantizar la robustez y fiabilidad de los resultados.
 
-\textbf{Validez interna:} se controlará el efecto orden mediante contrabalanceo. Se mantendrá la misma complejidad de tareas y condiciones experimentales.  
 
-\textbf{Validez externa:} los resultados serán aplicables a contextos similares (evaluaciones de usabilidad de aplicaciones web con participantes semiexpertos).  
 
-\textbf{Validez de constructo:} las métricas SUS y Likert se seleccionan por su fiabilidad y validez en estudios de usabilidad.  
+\textbf{Validez interna:} Se han identificado varias amenazas que podrían afectar a la relación causal entre el método 
+de evaluación y los resultados: 
+\begin{itemize}
+    \item \textbf{Efecto del orden:} Dado que los desarrolladores aplican ambos métodos, se empleará un diseño contrabalanceado para controlar el efecto del orden de aplicación.
+    \item \textbf{Efecto aprendizaje:} La exposición previa a un método podría influir en el desempeño. Para minimizarlo, se utilizarán prototipos y tareas equivalentes pero distintas en cada método, y se garantizará que los grupos de usuarios sean independientes.
+    \item \textbf{Fatiga:} La sesiones de evaluación estarán separadas por al menos 24 horas para reducir el cansancio de los participantes. 
+    \item \textbf{Experiencia previa:} Se recogerán datos demográficos y de experiencia mediante un cuestionario inicial, y se formarán grupos homogéneos en cuanto a conocimientos en usabilidad.
+\end{itemize}
 
-\textbf{Validez de conclusión:} se emplearán pruebas t pareadas (o Wilcoxon si no hay normalidad) con $\alpha=0.05$, y tamaños del efecto (Cohen’s d) para cuantificar diferencias.
+\textbf{Validez de conclusión estadística:} Para asegurar que las diferencias observadas en los errores detectados y la 
+satisfacción de los desarrolladores se deben a los métodos de evaluación comparados y no a factores aleatorios, 
+se utilizarán pruebas estadísticas adecuadas. En concreto, se aplicarán pruebas t pareadas para comparar los resultados intra-sujetos (satisfacción de 
+desarrolladores) y pruebas t independientes para los datos entre grupos (errores de usuarios). En caso de que no se cumpla el 
+supuesto de normalidad, se recurrirá a pruebas no paramétricas equivalentes (Wilcoxon y Mann-Whitney respectivamente).
+Se adoptarán un nivel de significación de $\alpha=0.05$ y se calcularán tamaños del efecto (Cohen’s d) para cuantificar la magnitud de las diferencias encontradas.
+
+\textbf{Validez externa:} El contexto de experimento permite generalizar los resultados a entornos similares de evaluación de usabilidad en en ámbito wev con evaluadores semi-expertos. Sin embargo, la selección 
+intencionada de participantes y el uso de un único tipo de interfaz pueden limitar la generalización a otros dominios o perfiles de usuario. Para futuras réplicas, se recomienda ampliar la variedad de prototipos y perfiles de evaluadores.
+
 
 
 % BIBLIOGRAFIA %
