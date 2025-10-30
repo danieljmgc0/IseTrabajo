@@ -6,6 +6,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{amsmath}
+\usepackage{hyperref}
+
 \geometry{margin=3cm}
 
 
@@ -160,36 +162,52 @@ Asimismo, los datos personales serán anonimizados y almacenados de forma segura
 
 \section{Objetos e instrumentación}
 
-Los objetos experimentales serán dos versiones interactivas de una misma aplicación web, denominadas versión A y versión B y que presentan en su diseño visual y 
-disposición de los elementos de la interfaz idénticos, así pues sólo se estudiará la aplicación de las metodologías. Ambas versiones mantienen la misma complejidad funcional, permitiendo que las diferencias observadas en los resultados se deban exclusivamente al método 
-de evaluación empleado y no a variaciones en la dificultad de las tareas. Estas versiones servirán como base para la comparación de los dos métodos de evaluación de usabilidad propuestos en este experimento.
+Los objetos experimentales estarán constituidos por una aplicación web interactiva desarrollada en dos versiones diferenciadas, 
+denominadas versión A y versión B, que presentan las mismas funcionalidades y flujo de tareas, pero difieren en determinados elementos visuales o de disposición. 
+Estas variaciones se introducen con el fin de posibilitar la aplicación del método A/B Testing, que requiere comparar la interacción de los usuarios con dos variantes del mismo sistema.
+En cambio, para la aplicación del Recorrido Pluralista se empleará una única versión de la aplicación (la versión B), 
+sobre la que se realizará un análisis colaborativo de la interacción.
 
-Durante la aplicación del método A/B Testing, los participantes interactuarán individualmente con ambas versiones del prototipo, 
-realizando un conjunto de tareas representativas de uso cotidiano, como localizar un producto, completar una compra simulada o modificar una 
-configuración en el perfil de usuario y buscar información específica dentro del sistema. En el caso del Recorrido Pluralista, los 
-participantes se organizarán en pequeños grupos junto con un diseñador gráfico y un experto en usabilidad, aplicando el método 
-sobre el mismo conjunto de tareas de forma colaborativa sobre el mismo conjunto de tareas. A lo largo de estas sesiones, se analizarán colectivamente 
-los pasos de interacción, se discutirán los problemas detectados y se propondrán posibles mejoras en el diseño. Las tareas han sido seleccionadas por su 
-relevancia y que sean comparables entre ambos métodos sin generar efectos de fatiga o aprendizaje. 
+El objeto principal del experimento es evaluar la percepción de los desarrolladores 
+tras aplicar ambos métodos de evaluación de usabilidad. 
+Los desarrolladores no son los sujetos que ejecutan las tareas, 
+sino los evaluadores que orquestan y supervisan las pruebas con grupos de usuarios reales, 
+aplicando cada metodología y observando los resultados obtenidos.
 
+De esta forma, el estudio busca analizar cómo valoran los desarrolladores la utilidad, 
+facilidad de aplicación, carga de trabajo y eficacia percibida de cada método una vez que han tenido la oportunidad de ponerlos en práctica.
 
-Para la recogida de datos se emplearán distintos instrumentos de medición que permitirán obtener información tanto cuantitativa como cualitativa: 
+Cada desarrollador aplicará ambos métodos de manera secuencial y contrabalanceada de modo que algunos comiencen con A/B Testing y otros con Recorrido Pluralista con el objetivo de evitar sesgos derivados del orden o de la experiencia acumulada.
+Después de la aplicación de ambos métodos, los desarrolladores completarán un cuestionario de valoración comparativa, expresando su opinión y grado de satisfacción con cada técnica.
+
+Durante la aplicación del método A/B Testing, cada desarrollador coordinará sesiones individuales en las que los usuarios interactuarán con las versiones A y B del prototipo. 
+Se registrarán métricas como tiempo de ejecución, tasa de éxito y errores cometidos por los usuarios, además de observaciones sobre los problemas detectados.
+
+En el caso del Recorrido Pluralista, el desarrollador dirigirá sesiones grupales en las que los usuarios trabajarán junto 
+con un diseñador gráfico y un experto en usabilidad. 
+Durante estas sesiones se recorrerán de forma colaborativa las tareas de la aplicación, discutiendo los pasos de interacción, 
+los problemas encontrados y las posibles mejoras de diseño.
+
+Una vez completadas ambas fases, los desarrolladores valorarán su experiencia como evaluadores, indicando qué método consideran más eficaz, intuitivo y práctico para la identificación de problemas de usabilidad y 
+para su aplicación en contextos reales de desarrollo.
+
+Para la obtención de información se emplearán instrumentos orientados a recoger datos cuantitativos y cualitativos, tanto de los usuarios como de los desarrolladores:
+
 
 \begin{itemize}
-    \item \textbf{Registro del tiempo empleado.} El tiempo empleado en la ejecución de las tareas se registrará mediante un cronómetro o software de registro automático, lo que permitirá calcular la eficiencia de cada participante en ambos métodos. 
-    \item \textbf{Documentación de problemas de usabilidad.} Los problemas de usabilidad detectados se documentarán en una plantilla estructurada en la que constará su descripción, severidad y frecuencia de aparición.
-    \item \textbf{Cuestionario SUS.} Una vez finalizada cada sesión experimental, los participantes completarán el cuestionario, compuesto de diez preguntas con una escala de respuesta de 1 a 5, que permitirá evaluar de manera estandarizada la percepción de usabilidad del sistema.
-    \item \textbf{Escala de satisfacción.} Además, se incluirá una escala de satisfacción general de tipo Likert(1--7) que permitirá valorar el grado de satisfacción del participante con el método aplicado.
-    \item \textbf{Preguntas abiertas.} Finalmente, se plantearán preguntas abiertas orientadas a recoger impresiones cualitativas sobre la experiencia, tales como la percepción de facilidad de uso, las ventajas y limitaciones de cada método o las dificultades encontradas durante la evaluación.  
+    \item Registro del tiempo empleado por los usuarios en la ejecución de las tareas, medido mediante software o cronómetro digital, con el fin de evaluar la eficiencia del método.
+    \item Documentación de problemas de usabilidad, recogida por los desarrolladores en una plantilla estructurada con la descripción, severidad y frecuencia de cada incidencia.
+    \item Cuestionario SUS, administrado a los usuarios tras la interacción con la aplicación, para evaluar la percepción de usabilidad de las versiones A y B.
+    \item Cuestionario de valoración del método, cumplimentado por los desarrolladores al finalizar la aplicación de ambas metodologías, diseñado específicamente para medir su satisfacción, facilidad de aplicación y preferencia entre los métodos.
+    \item Escala de satisfacción general tipo Likert (1–7), para cuantificar la valoración global de los desarrolladores sobre la experiencia de uso de cada técnica.
+    \item Preguntas abiertas, destinadas a recoger percepciones cualitativas sobre las ventajas, limitaciones y dificultades encontradas durante la aplicación de los métodos.
+
 \end{itemize}
 
-Antes de comenzar con las sesiones experimentales, se administrará un breve cuestionario demográfico con el fin de recoger información sobre el perfil de los participantes, incluyendo 
-edad, formación, experiencia previa en desarrollo de software y familiaridad con técnicas de evaluación de usabilidad. Durante las 
-sesiones del Recorrido Pluralista, se realizarán además observaciones directas y se registrarán comentarios verbales de los participantes, con el objetivo 
-de complementar los datos cuantitativos con información cualitativa sobre las percepciones, actitudes y dinámicas de grupo. Todos los datos recopilados 
-serán tratados de forma confidencial y anonimizados, garantizando la protección de la información personal y el cumplimiento de los principios éticos establecidos
-para investigaciones con participantes humanos.
 
+
+Antes del inicio del experimento, los desarrolladores y usuarios completarán un cuestionario demográfico donde se recogerán datos relativos a edad, formación, experiencia en desarrollo de software y familiaridad con técnicas de evaluación de usabilidad. Durante las sesiones del Recorrido Pluralista, se realizarán observaciones directas y registro de comentarios verbales por parte de los desarrolladores, con el fin de complementar los datos cuantitativos con información cualitativa sobre las percepciones y dinámicas de grupo.
+Todos los datos recopilados serán tratados de forma confidencial y anonimizados, garantizando la protección de la información personal y el cumplimiento de los principios éticos establecidos para investigaciones con participantes humanos.
 
 \section{Evaluación de la validez}
 En este apartado se evalúa la validez del diseño experimental propuesto, identificando posibles amenazas y las 
@@ -203,7 +221,7 @@ de evaluación y los resultados:
     \item \textbf{Efecto del orden:} Dado que los desarrolladores aplican ambos métodos, se empleará un diseño contrabalanceado para controlar el efecto del orden de aplicación.
     \item \textbf{Efecto aprendizaje:} La exposición previa a un método podría influir en el desempeño. Para minimizarlo, se utilizarán prototipos y tareas equivalentes pero distintas en cada método, y se garantizará que los grupos de usuarios sean independientes.
     \item \textbf{Fatiga:} La sesiones de evaluación estarán separadas por al menos 24 horas para reducir el cansancio de los participantes. 
-    \item \textbf{Experiencia previa:} Se recogerán datos demográficos y de experiencia mediante un cuestionario inicial, y se formarán grupos homogéneos en cuanto a conocimientos en usabilidad.
+    \item \textbf{Experiencia previa:} Se recogerán datos demográficos y de experiencia mediante un cuestionario inicial.
 \end{itemize}
 
 \textbf{Validez de conclusión estadística:} Para asegurar que las diferencias observadas en los errores detectados y la 
@@ -229,22 +247,80 @@ intencionada de participantes y el uso de un único tipo de interfaz pueden limi
 \printbibliography[heading=bibintoc,title={Bibliografía}]
 % -------------------------------------------------------------------
 \appendix
+\chapter{Anexo I: Cuestionario para usuarios}
+\label{anexo:usuarios}
 
-\chapter{Anexo I: Tareas de evaluación}
-Cada participante completará un conjunto de tareas representativas en la aplicación web.  
-\begin{itemize}
-    \item \textbf{Tarea 1:} Localizar un producto y completar una compra simulada.  
-    \item \textbf{Tarea 2:} Cambiar una configuración de usuario en el perfil.  
-\end{itemize}
-En A/B Testing, se compararán tiempos y errores entre versiones A y B.  
-En el Recorrido Pluralista, se discutirán los pasos de interacción con un grupo de tres evaluadores (usuario, diseñador y experto).
+Instrucciones: Rellene el cuestionario tras completar las tareas con la aplicación.
 
-\chapter{Anexo II: Cuestionario de satisfacción y usabilidad}
-\label{anexo:encuesta}
 \begin{itemize}
-    \item Escala SUS (10 ítems, 1--5).  
-    \item Escala de satisfacción general (Likert 1--7).  
-    \item Preguntas abiertas sobre percepción del método aplicado.  
+    \item Escala SUS (System Usability Scale) — 10 ítems, respuestas 1 (totalmente en desacuerdo) a 5 (totalmente de acuerdo).
+    \item Preguntas de rendimiento percibido:
+    \begin{itemize}
+        \item ¿Pudo completar las tareas propuestas? (Sí/No)
+        \item Tiempo estimado para completar cada tarea (segundos/minutos).
+        \item Observaciones sobre dificultades encontradas (respuesta abierta).
+    \end{itemize}
+    \item Comentarios abiertos sobre la experiencia de uso: ¿qué aspectos le resultaron más confusos o útiles?
 \end{itemize}
+
+\chapter{Anexo II: Cuestionario para desarrolladores}
+\label{anexo:desarrolladores}
+
+El cuestionario se realizó en el siguiente \href{https://docs.google.com/forms/d/1ct0bRRyEHIIYPp2TrhZ53o755vneEbUIfic6f0XR7HM}{enlace}.
+
+
+Instrucciones: Complete este cuestionario después de haber aplicado ambos métodos de evaluación de usabilidad (\textit{A/B Testing} y \textit{Recorrido Pluralista}) con los grupos de usuarios asignados. Las respuestas deben reflejar su experiencia como desarrollador al coordinar y aplicar cada metodología.
+
+\begin{itemize}
+    \item \textbf{Sección 1 — Facilidad de aplicación (escala Likert 1 = totalmente en desacuerdo, 5 = totalmente de acuerdo):}
+    \begin{itemize}
+        \item Entendí rápidamente cómo aplicar el método A/B Testing.
+        \item Entendí rápidamente cómo aplicar el método de Recorrido Pluralista.
+        \item La documentación o guía del método A/B Testing fue clara y suficiente.
+        \item La dinámica del Recorrido Pluralista fue fácil de seguir.
+        \item Me resultó sencillo identificar pasos concretos al aplicar A/B Testing.
+        \item Me resultó sencillo coordinar y ejecutar las sesiones del Recorrido Pluralista.
+        \item En general, considero que el método [A/B Testing / Recorrido Pluralista] es fácil de aplicar.
+    \end{itemize}
+
+    \item \textbf{Sección 2 — Eficiencia percibida (escala Likert 1 = totalmente en desacuerdo, 5 = totalmente de acuerdo):}
+    \begin{itemize}
+        \item El tiempo necesario para preparar un A/B Testing es razonable.
+        \item El tiempo necesario para preparar un Recorrido Pluralista es razonable.
+        \item Aplicar A/B Testing requiere menos esfuerzo que otros métodos de evaluación.
+        \item El Recorrido Pluralista requiere demasiado esfuerzo de coordinación.
+        \item El análisis de resultados en A/B Testing me resultó rápido y claro.
+        \item El análisis de resultados del Recorrido Pluralista fue sencillo de interpretar.
+    \end{itemize}
+
+    \item \textbf{Sección 3 — Utilidad y efectividad del método (escala Likert 1 = totalmente en desacuerdo, 5 = totalmente de acuerdo):}
+    \begin{itemize}
+        \item A/B Testing permite detectar problemas de usabilidad relevantes.
+        \item El Recorrido Pluralista permite identificar problemas de usabilidad relevantes.
+        \item A/B Testing ofrece evidencia objetiva sobre la experiencia del usuario.
+        \item El Recorrido Pluralista permite comprender mejor el razonamiento del usuario.
+        \item Los resultados obtenidos con A/B Testing son fácilmente comunicables al equipo de desarrollo.
+        \item Los resultados del Recorrido Pluralista son útiles para mejorar el diseño del sistema.
+        \item En mi experiencia, ambos métodos complementan bien el proceso de evaluación de usabilidad.
+    \end{itemize}
+
+    \item \textbf{Sección 4 — Satisfacción general y preferencia (escala Likert 1 = totalmente en desacuerdo, 5 = totalmente de acuerdo):}
+    \begin{itemize}
+        \item Me sentí cómodo utilizando el método A/B Testing.
+        \item Me sentí cómodo utilizando el método Recorrido Pluralista.
+        \item Me resultó más interesante aplicar A/B Testing que el Recorrido Pluralista.
+        \item Considero que el Recorrido Pluralista fomenta mejor la colaboración entre los evaluadores.
+        \item Preferiría usar A/B Testing en futuros proyectos de evaluación.
+        \item Preferiría usar Recorrido Pluralista en futuros proyectos de evaluación.
+        \item En general, estoy satisfecho con la calidad de los resultados obtenidos con ambos métodos.
+    \end{itemize}
+
+    \item \textbf{Sección 5 — Preguntas abiertas (análisis cualitativo):}
+    \begin{itemize}
+        \item ¿Qué ventajas destacarías del método A/B Testing en comparación con el Recorrido Pluralista?
+        \item ¿Qué limitaciones o dificultades encontraste al aplicar cada método?
+    \end{itemize}
+\end{itemize}
+
 
 \end{document}
