@@ -1,0 +1,14 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Trabajo1.blg'
+[101] biber:340> INFO - === jue oct 30, 2025, 18:16:23
+[119] Biber.pm:418> INFO - Reading 'Trabajo1.bcf'
+[203] Biber.pm:972> INFO - Found 4 citekeys in bib section 0
+[219] Biber.pm:4383> INFO - Processing section 0
+[232] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[233] bibtex.pm:1713> INFO - LaTeX decoding ...
+[241] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[315] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[315] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[315] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[323] bbl.pm:654> INFO - Writing 'Trabajo1.bbl' with encoding 'UTF-8'
+[326] bbl.pm:757> INFO - Output to Trabajo1.bbl
