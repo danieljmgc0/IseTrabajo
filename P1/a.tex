@@ -53,7 +53,9 @@ Analizar los métodos de evaluación de usabilidad \textbf{A/B Testing} y \textb
 
 
 \section{Contexto}
-Para el experimento se supone realizada previamente una actividad que consiste en la evaluacón de la interfaz gráfica por parte de un equipo desarrollador sobre unos usuarios usando los dos métodos de evaluación \textbf{A/B Testing} y \textbf{Recorrido Pluralista}. Entonces, nuestro estudio se centrará en recopilar información de cómo ha sido la experiencia de estos desarrolladores usando las dos técnicas de evaluación.
+El experimento se realiza de manera presencial, ya que en una primera parte se evaluará la interfaz gráfica y desupués las sensaciones de los desarrolladores aplicando los métodos. Para ello, primero se partirá de un grupo de desarrolladores que será dividio en dos y cada uno de los grupos aplicará cada método de evaluación en 2 grupos independientes de usuarios. El fin del experimento es estudiar cada metodología para comprobar donde es más eficaz el uso de cada una.
+
+\section{Implicaciones}
 
 % -------------------------------------------------------------------
 \chapter{Trabajos relacionados}
@@ -69,7 +71,7 @@ El \textbf{A/B Testing} se utiliza ampliamente en el ámbito web para medir dife
 
 \section{Hipótesis y variables}
 
-Nuestro experimento está enfocado en comprobar qué método ofrece mejores resultados a la hora de encontrar fallos en el diseño de la interfaz y cuál prefieren los desarrollodores. \\
+Nuestro experimento está enfocado en comprobar qué método ofrece una mejor identifiacion de errores en la usabildiad en el diseño de la interfaz. \\
 \vspace{0.1cm}
 \textbf{Hipótesis:}
 \begin{itemize}
@@ -84,7 +86,7 @@ Nuestro experimento está enfocado en comprobar qué método ofrece mejores resu
     \item \textbf{Variable independiente:} Método de evaluación (A/B Testing, Recorrido Pluralista).
     \item \textbf{Variables dependientes:}
     \begin{itemize}
-        \item \textbf{Errores:} cometidos en el uso de la interfaz
+        \item \textbf{Errores:} percibidos en el uso de la interfaz
         \item \textbf{Preferencia:} por parte de los desarroladores
     \end{itemize}
     \item \textbf{Variables de control:} tipo de tarea, complejidad del prototipo, experiencia previa de los participantes.
@@ -100,27 +102,24 @@ Errores = \frac{Tareas\ realizadas\ mal}{Total\ tareas\ realizadas}
 Por otra parte, la satisfacción de los dessarrolladores es una variable subjetiva que se medirá aplicando el uso de el cuestionario mostrado en el Anexo \ref{anexo:encuesta}. 
 
 \section{Diseño del experimento}
-Como se ha comentado, este experimento se desarrollaría después realizar la evaluación de la interfaz con las dos metodoglías por parte de los desarrolladores. Estas pruebas deben haber sido llevadas a cabo por dos grupos independites de desarrolladores aplicando cada uno los dos métodos de evaluación. Como se muestra en la tabla \ref{tab:diseño_experimento} cada equipo desarrollador evalua a otro dos grupos de usuarios (A. B, C y D) también independientes para que no producir sesgos en el experimento fruto del aprendizaje durante el experimento. Este enfoque del experimento es por un lado \textit{between-subjects} en la parte de los usuarios y por otra parte \textit{within-subjects} en el estudio de la satisfacción de los desarrolladores. Esto es debido a que se aleatoriza la selección de usuarios para cada método, y los desarrolladores aplican ambos para su estudio. 
+Como se ha comentado, en este experimento se parte de un grupo de desarrolladroes que será dividudos en dos grupos. A estos desarroladores se les realizará una encuesta demográficos de carácter informativo acerca de la población a estudiar. Una vez recodiga información sobe rus características, se procederá a dividir el grupo en 2. Cada uno aplicará las dos metodoloías en 2 grupos de participanetes independientes. Los participantes sólo serán escogidos una vez y no participarán en el otro experimento de apliación de la metodología realizado por los desarrolladores para que no afecte en el estudio. Como se muestra en la tabla \ref{tab:diseño_experimento} cada equipo desarrollador evaluará a los 2 grupos de usuarios (G1, G2, G3 y G4) independientes para que no producir sesgos en el experimento fruto del aprendizaje del funcionamiento de la interfaz. Este enfoque del experimento es contrabalanceado para estudiar ambas metodologías en ambos grupos de desarrolladores.
 
 \begin{table}[h]
 \centering
 \begin{tabular}{|c|c|c|}
 \hline
 \textbf{Grupo} & \textbf{A/B Testing} & \textbf{Recorrido Pluralista} \\ \hline
-\textbf{Desarrolladores 1} & A & B \\ \hline
-\textbf{Desarrolladores 2} & C & D \\ \hline
+\textbf{Desarrolladores 1} & G1 & G2 \\ \hline
+\textbf{Desarrolladores 2} & G3 & G4 \\ \hline
 \end{tabular}
 \caption{Diseño del experimento entre grupos (between-subjects)}
 \label{tab:diseño_experimento}
 \end{table}
 
-Las tareas que deberán haber hecho los usuarios incluiyen actividades representativas de un uso real de la aplicación. El grupo de desarrolladores asignado al método de A/B Testing centrará su evaluación en la comparación de dos versiones de la interfaz, registrando métricas cuantitativas como el tiempo medio de ejecución, la tasa de éxito de las tareas y la frecuencia de errores entre otros. Por su parte, el grupo que emplee el Recorrido Pluralista llevará a cabo una revisión colaborativa, analizando las mismas tareas y discutiendo colectivamente los problemas de usabilidad identificados.
+Las tareas que deberán realizar los usuarios incluyen actividades representativas de un uso real de la aplicación. Para el A/B Testing cada desarrollador evaluará 2 versiones de la interfaz gráfica en los usuarios que tendrás que realizar diversas tareas relacionada con la funcionalidad de la aplicación. En cuanto al estudio del Recorrido pluralista el segundo grupo de desarrollador realizará una entrevista general con el grupo de participantes e irán discutiendo con ellos aspectos de la interfaz mientras ejecutan tareas que haróian con la interfaz web.
 
 
-Una vez finalizada esa evaluación, se dará paso a nuestro estudio comparativo de ambos métodos. Nuesto estudio involucrará los errores encontrados en el estudio anterior reportado por los desarrolladores y el análisis de una encuesta realizada a los desarrolladores para medir su grado de satisfacción con los métodos empleados.
-
-El proceso de evaluación más concretamente queda descrito como sigue. Primero dos equipos desarrolladores aplican las dos técnicas de evaluación sobre grupos de usuarios independientes. Con esta evaluación recuperan datos de los errores caputarados por estos. 
-
+Una vez finalizada esa evaluación de la interfaz, se dará paso a comparar ambos métodos donde se estudiará las encuestas SUS hecha por los desarrolladores y se encuestará a estos mismos para determinar la eficiencia y rendimiento percibido utilizando cada uno de las metodologías. Además se tendrá en cuenta la cantidad de errores encontrados en los usuarios en la aplicación de cada una de las metodologías.
 
 \section{Selección de sujetos}
 

@@ -1,0 +1,173 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{nielsen1994usability}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhashraw}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Conference companion on Human factors in computing systems}
+      \field{title}{Usability inspection methods}
+      \field{year}{1994}
+      \field{pages}{413\bibrangedash 414}
+      \range{pages}{2}
+    \endentry
+    \entry{rubin2011handbook}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=3a26bf533ede783c868fd48a4c1a194b}{%
+           family={Rubin},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c75c95524a984f270b8b3f5b7e773ba6}{%
+           family={Chisnell},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=81cfd4329c7eef822f957c63bae1eef9}{%
+           family={Spool},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley}%
+      }
+      \strng{namehash}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{fullhash}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{fullhashraw}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{bibnamehash}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{authorbibnamehash}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{authornamehash}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{authorfullhash}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \strng{authorfullhashraw}{3e1abd14d347a7ba4e3d1e793b07715f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781118080405}
+      \field{title}{Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb https://books.google.es/books?id=l_e1MmVzMb0C
+      \endverb
+      \verb{url}
+      \verb https://books.google.es/books?id=l_e1MmVzMb0C
+      \endverb
+    \endentry
+    \entry{kohavi2009controlled}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f2a149b8d68fbffd75e8ece81b80708f}{%
+           family={Kohavi},
+           familyi={K\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6199e607a36b93226007682ae029e97f}{%
+           family={Longbotham},
+           familyi={L\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod}}}%
+        {{hash=22b09da701968fc719a5d045dc2ef913}{%
+           family={Sommerfield},
+           familyi={S\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d3e9cc80b6719d0bc69bb039f894bffa}{%
+           family={Henne},
+           familyi={H\bibinitperiod},
+           given={Randal\bibnamedelima M},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{3f993bd4393817440119707795635244}
+      \strng{fullhash}{9c2f0e4b81bebe44e92f3dd2c36fc943}
+      \strng{fullhashraw}{9c2f0e4b81bebe44e92f3dd2c36fc943}
+      \strng{bibnamehash}{3f993bd4393817440119707795635244}
+      \strng{authorbibnamehash}{3f993bd4393817440119707795635244}
+      \strng{authornamehash}{3f993bd4393817440119707795635244}
+      \strng{authorfullhash}{9c2f0e4b81bebe44e92f3dd2c36fc943}
+      \strng{authorfullhashraw}{9c2f0e4b81bebe44e92f3dd2c36fc943}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data mining and knowledge discovery}
+      \field{number}{1}
+      \field{title}{Controlled experiments on the web: survey and practical guide}
+      \field{volume}{18}
+      \field{year}{2009}
+      \field{pages}{140\bibrangedash 181}
+      \range{pages}{42}
+    \endentry
+    \entry{biasPluralistic}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=8040954b521f229bd8ccb2af6b4dd3a0}{%
+           family={Bias},
+           familyi={B\bibinitperiod},
+           given={Randolph\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {USA}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, Inc.}%
+      }
+      \strng{namehash}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{fullhash}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{fullhashraw}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{bibnamehash}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{authorbibnamehash}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{authornamehash}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{authorfullhash}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \strng{authorfullhashraw}{8040954b521f229bd8ccb2af6b4dd3a0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Usability Inspection Methods}
+      \field{isbn}{0471018775}
+      \field{title}{The pluralistic usability walkthrough: coordinated empathies}
+      \field{year}{1994}
+      \field{pages}{63\bibrangedash 76}
+      \range{pages}{14}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
