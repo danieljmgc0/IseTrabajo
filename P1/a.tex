@@ -40,8 +40,11 @@
 % -------------------------------------------------------------------
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
+Este trabajo presenta el diseño de un experimento controlado cuyo objetivo es comparar dos métodos de evaluación de usabilidad: el A/B Testing, un enfoque empírico basado en datos cuantitativos, y el Recorrido Pluralista, un método de inspección grupal que integra perspectivas multidisciplinares. La motivación surge de la falta de evidencia empírica que permita determinar cuál de estos métodos resulta más efectivo para detectar problemas de usabilidad y cuál es preferido por los desarrolladores.
 
-Añadir resumen después de terminar el trabajo
+El estudio se estructura en dos fases experimentales sucesivas. En una primera fase, equipos de desarrolladores aplican ambos métodos de evaluación sobre grupos independientes de usuarios finales que interactúan con dos versiones de una aplicación web. Durante esta fase, se recopilan datos objetivos sobre errores cometidos y eficiencia en la realización de tareas representativas. En la segunda fase, que constituye el núcleo de este trabajo, se compara la efectividad de ambos métodos desde la perspectiva de los desarrolladores evaluadores, analizando su capacidad para detectar problemas de usabilidad y midiendo su satisfacción con cada metodología.
+
+El diseño del experimento sigue un enfoque mixto: between-subjects para los usuarios finales de la primera fase y within-subjects para los desarrolladores que aplican ambos métodos. Se plantean dos hipótesis nulas relacionadas con la percepción de errores y la preferencia metodológica. Las variables dependientes incluyen el número de errores detectados y la satisfacción de los desarrolladores, medida mediante el cuestionario SUS, una escala Likert y preguntas abiertas.
 
 
 % -------------------------------------------------------------------
@@ -125,12 +128,15 @@ El proceso de evaluación más concretamente queda descrito como sigue. Primero 
 
 
 \section{Selección de sujetos}
+El experimento requiere la participación de dos grupos distintos de participantes: desarrolladores evaluadores y usuarios finales. Cada grupo cumple un rol específico en el diseño experimental y cuenta con sus propios criterios de selección.
 
-La selección de los participantes se realizará de manera intencionada, buscando garantizar la representatividad del perfil de usuario objetivo del estudio: desarrolladores de software con conocimientos básicos en usabilidad o experiencia de usuario (UX). Dado que el propósito del experimento es comparar la aplicación de los métodos A/B Testing y Recorrido Pluralista desde la perspectiva de evaluadores técnicos, resulta fundamental que los sujetos cuenten con una comprensión general de los principios de diseño de interfaces y evaluación de sistemas interactivos.
-
+La selección de los participantes para desarrolladores evaluadores se realizará de manera intencionada, buscando garantizar la representatividad del perfil de usuario objetivo del estudio: desarrolladores de software con conocimientos básicos en usabilidad o experiencia de usuario (UX). Dado que el propósito del experimento es comparar la aplicación de los métodos A/B Testing y Recorrido Pluralista, resulta fundamental que los sujetos cuenten con una comprensión general de los principios de diseño de interfaces y evaluación de sistemas interactivos.
 El estudio se dirigirá a un grupo de entre 16 y 20 participantes, un tamaño muestral adecuado para un diseño intra-sujetos contrabalanceado, donde cada participante aplica ambos métodos. Este rango permite obtener una potencia estadística suficiente para detectar diferencias de tamaño medio (Cohen's $d \approx 0.5$) con un nivel de significación de 0.05, reduciendo a la vez la variabilidad interindividual.
 
+Para la selección de los usuarios finales, se empleará un muestreo aleatorio estratificado, asegurando la inclusión de individuos con diferentes niveles de experiencia en el uso de aplicaciones web. Se buscará reclutar entre 40 y 50 usuarios, divididos en dos grupos independientes que participarán en las evaluaciones realizadas por los desarrolladores. Este tamaño muestral permitirá obtener resultados representativos y generalizables sobre la efectividad de los métodos evaluados.
+
 \subsection*{Criterios de inclusión}
+\textbf{Criterios para desarrolladores evaluadores:}
 \begin{itemize}
     \item Ser desarrollador o estudiante avanzado de ingeniería de software, diseño de interacción o disciplinas afines.
     \item Poseer conocimientos básicos sobre usabilidad o experiencia de usuario, acreditados mediante formación previa o experiencia práctica.
@@ -139,15 +145,38 @@ El estudio se dirigirá a un grupo de entre 16 y 20 participantes, un tamaño mu
     \item Aceptar voluntariamente participar en el estudio, firmando el consentimiento informado.
 \end{itemize}
 
+\textbf{Criterios para usuarios finales:}
+\begin{itemize}
+    \item Contar con habilidades básicas de navegación web y uso de interfaces interactivas.
+    \item No haber participado previamente en estudios similares que involucren los mismos métodos de evaluación.
+    \item Aceptar voluntariamente participar en el estudio, firmando el consentimiento informado.
+\end{itemize}
+
 \subsection*{Criterios de exclusión}
+\textbf{Criterios para desarrolladores evaluadores:}
 \begin{itemize}
     \item Haber participado previamente en el piloto del experimento o en estudios similares que involucren los mismos métodos.
     \item Poseer un conocimiento profundo o especializado sobre los prototipos empleados, lo que podría sesgar la evaluación.
     \item Presentar dificultades técnicas o de comunicación que impidan el correcto desarrollo de las tareas experimentales.
 \end{itemize}
 
+\textbf{Criterios para usuarios finales:}
+\begin{itemize}
+    \item Tener experiencia previa significativa con los prototipos empleados, lo que podría influir en la percepción de usabilidad.
+    \item Presentar discapacidades visuales, motoras o cognitivas que dificulten la interacción con las interfaces web.
+    \item Haber participado en estudios similares en los últimos seis meses, para evitar efectos de aprendizaje o familiaridad con los métodos evaluados.
+\end{itemize}
+
 \subsection*{Procedimiento de reclutamiento}
+\begin{itemize}
+\item \textbf{Desarrolladores evaluadores:}
+
 Los participantes serán reclutados a través de convocatorias internas en facultades de ingeniería y diseño, y mediante invitaciones personales a profesionales en activo del ámbito del desarrollo web. Se ofrecerá información detallada sobre los objetivos del estudio, la naturaleza de las tareas a realizar y la duración estimada de cada sesión (aproximadamente 60 minutos). La participación será voluntaria y no remunerada, aunque se podrá ofrecer una constancia de participación académica.
+
+ \item \textbf{Usuarios finales:}
+
+Los usuarios serán reclutados mediante muestreo por conveniencia en entornos académicos y profesionales, asegurando la diversidad en género, edad y nivel de experiencia tecnológica. Se utilizarán anuncios en redes sociales, mailing lists y carteles en espacios públicos.
+\end{itemize}
 
 Antes de iniciar el experimento, cada participante completará un cuestionario demográfico donde se recogerán datos como edad, nivel educativo, años de experiencia en desarrollo, conocimiento previo de técnicas de evaluación de usabilidad y frecuencia de participación en proyectos web. Esta información servirá para describir la muestra y analizar posibles correlaciones entre la experiencia previa y las percepciones de los métodos evaluados.
 
@@ -210,10 +239,6 @@ Antes del inicio del experimento, los desarrolladores y usuarios completarán un
 Todos los datos recopilados serán tratados de forma confidencial y anonimizados, garantizando la protección de la información personal y el cumplimiento de los principios éticos establecidos para investigaciones con participantes humanos.
 
 \section{Evaluación de la validez}
-En este apartado se evalúa la validez del diseño experimental propuesto, identificando posibles amenazas y las 
-medidas adoptadas para solucionarlas, con el fin de garantizar la robustez y fiabilidad de los resultados.
-
-
 
 \textbf{Validez interna:} Se han identificado varias amenazas que podrían afectar a la relación causal entre el método 
 de evaluación y los resultados: 
