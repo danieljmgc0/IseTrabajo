@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber a"] 1761672287.13391 "a.bcf" "a.bbl" "a" 1761673347.25242 0
-  "a.bcf" 1761673346 107974 77a79842723f91829a2c1c3b954edf45 "pdflatex"
+["biber a"] 1761837540.44951 "a.bcf" "a.bbl" "a" 1761837912.16806 0
+  "a.bcf" 1761837911 107974 77a79842723f91829a2c1c3b954edf45 "pdflatex"
   "biblio.bib" 1760982202 2273 95fc177e941ebc2ebd9ba04a816c950b ""
   (generated)
   "a.bbl"
   "a.blg"
   (rewritten before read)
-["pdflatex"] 1761673345.20586 "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" "a.pdf" "a" 1761673347.2537 0
+["pdflatex"] 1761837908.48764 "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" "a.pdf" "a" 1761837912.17114 0
   "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1760982646 81107 70b8516c68c2e617189c5e44bfd16b96 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1759330829 31952 bafef48c163a597788de27abb4f3dfe5 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1759329966 40136 0f25a4fa6add187ffaa26ad991a59e30 ""
@@ -104,11 +104,11 @@
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.def" 1280941015 1620 fb1c32b818f2058eca187e5c41dfae77 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/tex/latex/logreq/logreq.sty" 1280941015 6187 b27afc771af565d3a9ff1ca7d16d0d46 ""
   "C:/Users/USUARIO/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "a.aux" 1761673346 3313 c82cc5f28f35b2f52dddd8463803fb24 "pdflatex"
-  "a.bbl" 1761672290 6801 b69af5ea333c71e9c908e76c6070af24 "biber a"
-  "a.run.xml" 1761673346 2280 2b37c50a2398dbccad95d2d8ba7237c6 "pdflatex"
-  "a.tex" 1761673344 19534 153120edc1124f9b31d50fddd87c4f7b ""
-  "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" 1761673344 19534 153120edc1124f9b31d50fddd87c4f7b ""
+  "a.aux" 1761837911 3313 c82cc5f28f35b2f52dddd8463803fb24 "pdflatex"
+  "a.bbl" 1761837564 6801 b69af5ea333c71e9c908e76c6070af24 "biber a"
+  "a.run.xml" 1761837911 2280 2b37c50a2398dbccad95d2d8ba7237c6 "pdflatex"
+  "a.tex" 1761837906 20302 af77b8363dc4a990a85b62b8d3d38601 ""
+  "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" 1761837906 20302 af77b8363dc4a990a85b62b8d3d38601 ""
   (generated)
   "a.aux"
   "a.bcf"
