@@ -1,14 +1,14 @@
-[0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'a.blg'
-[112] biber:340> INFO - === sáb oct 18, 2025, 18:30:52
-[132] Biber.pm:418> INFO - Reading 'a.bcf'
-[220] Biber.pm:972> INFO - Found 4 citekeys in bib section 0
-[238] Biber.pm:4383> INFO - Processing section 0
-[254] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[255] bibtex.pm:1713> INFO - LaTeX decoding ...
-[266] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
-[354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[354] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[354] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
-[364] bbl.pm:654> INFO - Writing 'a.bbl' with encoding 'UTF-8'
-[368] bbl.pm:757> INFO - Output to a.bbl
+[1] Config.pm:307> INFO - This is Biber 2.17
+[1] Config.pm:310> INFO - Logfile is 'a.blg'
+[106] biber:340> INFO - === jue oct 30, 2025, 16:26:37
+[126] Biber.pm:418> INFO - Reading 'a.bcf'
+[211] Biber.pm:972> INFO - Found 4 citekeys in bib section 0
+[228] Biber.pm:4383> INFO - Processing section 0
+[242] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[243] bibtex.pm:1713> INFO - LaTeX decoding ...
+[253] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[334] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[334] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[334] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'es-ES'
+[343] bbl.pm:654> INFO - Writing 'a.bbl' with encoding 'UTF-8'
+[346] bbl.pm:757> INFO - Output to a.bbl
