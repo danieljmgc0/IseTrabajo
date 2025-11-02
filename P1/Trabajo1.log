@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.9)  30 OCT 2025 18:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.9)  2 NOV 2025 11:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -691,36 +691,36 @@ l.51 \chapter
 Cap\'{\i }tulo 1.
 [2
 
-]
+] [3]
 Cap\'{\i }tulo 2.
-[3
+[4
 
 ]
 Cap\'{\i }tulo 3.
 
-LaTeX Warning: Reference `anexo:encuesta' on page 4 undefined on input line 105
+LaTeX Warning: Reference `anexo:encuesta' on page 5 undefined on input line 115
 .
 
-[4
+[5
 
-] [5] [6] [7] [8] [9] [10]
+] [6] [7] [8] [9] [10] [11]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-70.
+80.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [11
+) [12
 
 
 ]
 Ap\'{e}ndice A.
-[12
+[13
 
 ]
 Ap\'{e}ndice B.
-[13
+[14
 
-] [14] (./Trabajo1.aux
+] [15] (./Trabajo1.aux
 LaTeX Info: Redefining \sptext on input line 26.
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
@@ -729,16 +729,16 @@ LaTeX Info: Redefining \% on input line 26.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Trabajo1.out' has not changed.
-(rerunfilecheck)             Checksum: D7A610D9F48146C0E8C7DA1B2CFC68DF;2444.
+(rerunfilecheck)             Checksum: 4E15B320C45A18CE99DAED09FA00FFE0;2564.
 Package logreq Info: Writing requests to 'Trabajo1.run.xml'.
 \openout1 = `Trabajo1.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19012 strings out of 480144
- 328994 string characters out of 5893199
+ 19015 strings out of 480144
+ 329025 string characters out of 5893199
  1054592 words of memory out of 5000000
- 36734 multiletter control sequences out of 15000+600000
+ 36735 multiletter control sequences out of 15000+600000
  481539 words of font info for 53 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
  60i,8n,68p,1036b,1833s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -757,10 +757,10 @@ appen/ec/ecbx2488.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Trabajo1.pdf (15 pages, 189155 bytes).
+Output written on Trabajo1.pdf (16 pages, 190992 bytes).
 PDF statistics:
- 588 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 598 PDF objects out of 1000 (max. 8388607)
+ 205 compressed objects within 3 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 129 words of extra memory for PDF output out of 10000 (max. 10000000)
 
