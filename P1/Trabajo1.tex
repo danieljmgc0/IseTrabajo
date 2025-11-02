@@ -40,11 +40,15 @@
 % -------------------------------------------------------------------
 \chapter*{Resumen}
 \addcontentsline{toc}{chapter}{Resumen}
-Este trabajo presenta el diseño de un experimento controlado cuyo objetivo es comparar dos métodos de evaluación de usabilidad: el A/B Testing, un enfoque empírico basado en datos cuantitativos, y el Recorrido Pluralista, un método de inspección grupal que integra perspectivas multidisciplinares. La motivación surge de la falta de evidencia empírica que permita determinar cuál de estos métodos resulta más efectivo para detectar problemas de usabilidad y cuál es preferido por los desarrolladores.
+Este trabajo plantea un experimento para comparar dos métodos de evaluación de usabilidad: el \textit{A/B Testing}, un enfoque más cuantitativo basado en datos, y el \textit{Recorrido Pluralista}, un método de revisión en grupo donde participan perfiles distintos para analizar un diseño. La idea surge porque no hay demasiada evidencia que demuestre cuál de los dos funciona mejor a la hora de detectar problemas de usabilidad ni cuál resulta más cómodo o útil para los desarrolladores.
 
-El estudio se estructura en dos fases experimentales sucesivas. En una primera fase, equipos de desarrolladores aplican ambos métodos de evaluación sobre grupos independientes de usuarios finales que interactúan con dos versiones de una aplicación web. Durante esta fase, se recopilan datos objetivos sobre errores cometidos y eficiencia en la realización de tareas representativas. En la segunda fase, que constituye el núcleo de este trabajo, se compara la efectividad de ambos métodos desde la perspectiva de los desarrolladores evaluadores, analizando su capacidad para detectar problemas de usabilidad y midiendo su satisfacción con cada metodología.
+El estudio se divide en dos fases. En la primera, varios equipos de desarrolladores aplican ambos métodos con usuarios reales que prueban dos versiones diferentes de una aplicación web. En esta fase se recogen datos más “objetivos”, como los errores cometidos o el tiempo que tardan en completar tareas representativas. 
 
-El diseño del experimento sigue un enfoque mixto: between-subjects para los usuarios finales de la primera fase y within-subjects para los desarrolladores que aplican ambos métodos. Se plantean dos hipótesis nulas relacionadas con la percepción de errores y la preferencia metodológica. Las variables dependientes incluyen el número de errores detectados y la satisfacción de los desarrolladores, medida mediante el cuestionario SUS, una escala Likert y preguntas abiertas.
+La segunda fase es el núcleo del trabajo, y se centra en comparar qué método les ha resultado más eficaz a los desarrolladores para identificar problemas de usabilidad y cuál les ha gustado más utilizar.
+
+El experimento combina dos enfoques metodológicos: un diseño \textit{between-subjects} para los usuarios de la primera fase (cada usuario solo prueba una versión) y un diseño \textit{within-subjects} para los desarrolladores, que utilizan ambos métodos. 
+
+Se plantean dos hipótesis nulas relacionadas con la percepción de errores y la preferencia entre métodos. Las variables dependientes incluyen el número de problemas detectados y el nivel de satisfacción de los desarrolladores, medido mediante el cuestionario SUS, una escala de Likert y preguntas abiertas.
 
 
 % -------------------------------------------------------------------
@@ -58,7 +62,7 @@ Analizar los métodos de evaluación de usabilidad \textbf{A/B Testing} y \textb
 
 
 \section{Contexto}
-El experimento se realiza de manera presencial, ya que en una primera parte se evaluará la interfaz gráfica y desupués las sensaciones de los desarrolladores aplicando los métodos. Para ello, primero se partirá de un grupo de desarrolladores que será dividio en dos y cada uno de los grupos aplicará cada método de evaluación en 2 grupos independientes de usuarios. El fin del experimento es estudiar cada metodología para comprobar donde es más eficaz el uso de cada una.
+El experimento se realiza de manera presencial, ya que en una primera parte se evaluará la interfaz gráfica y después las sensaciones de los desarrolladores aplicando los métodos. Para ello, primero se partirá de un grupo de desarrolladores que será dividio en dos y cada uno de los grupos aplicará cada método de evaluación en 2 grupos independientes de usuarios. El fin del experimento es estudiar cada metodología para comprobar donde es más eficaz el uso de cada una.
 
 \section{Implicaciones}
 
@@ -115,7 +119,7 @@ Errores = \frac{Tareas\ realizadas\ mal}{Total\ tareas\ realizadas}
 Por otra parte, la satisfacción de los dessarrolladores es una variable subjetiva que se medirá aplicando el uso de el cuestionario mostrado en el Anexo \ref{anexo:desarrolladores}. 
 
 \section{Diseño del experimento}
-Como se ha comentado, en este experimento se parte de un grupo de desarrolladores que será dividudos en dos grupos. A estos desarroladores se les realizará una encuesta demográficos de carácter informativo acerca de la población a estudiar. Una vez recodiga información sobre sus características, se procederá a dividir el grupo en 2. Cada uno aplicará las dos metodoloías en 2 grupos de participanetes independientes. Los participantes sólo serán escogidos una vez y no participarán en el otro experimento de apliación de la metodología realizado por los desarrolladores para que no afecte en el estudio. Como se muestra en la tabla \ref{tab:diseño_experimento} cada equipo desarrollador evaluará a los 2 grupos de usuarios (G1, G2, G3 y G4) independientes para que no producir sesgos en el experimento fruto del aprendizaje del funcionamiento de la interfaz. Este enfoque del experimento es contrabalanceado para estudiar ambas metodologías en ambos grupos de desarrolladores.
+Como se ha comentado, en este experimento se parte de un grupo de desarrolladores que serán divididos en dos grupos. A estos desarroladores se les realizará una encuesta demográfica de carácter informativo acerca de la población a estudiar. Una vez recogida la información sobre sus características, se procederá a dividir el grupo en 2. Cada uno aplicará las dos metodoloías en 2 grupos de participanetes independientes. Los participantes sólo serán escogidos una vez y no participarán en el otro experimento de apliacación de la metodología realizado por los desarrolladores para que no afecte en el estudio. Como se muestra en la tabla \ref{tab:diseño_experimento} cada equipo desarrollador evaluará a los 2 grupos de usuarios (G1, G2, G3 y G4) independientes para no producir sesgos en el experimento fruto del aprendizaje del funcionamiento de la interfaz. Este enfoque del experimento es contrabalanceado para estudiar ambas metodologías en ambos grupos de desarrolladores.
 
 \begin{table}[h]
 \centering
@@ -129,10 +133,10 @@ Como se ha comentado, en este experimento se parte de un grupo de desarrolladore
 \label{tab:diseño_experimento}
 \end{table}
 
-Las tareas que deberán realizar los usuarios incluyen actividades representativas de un uso real de la aplicación. Para el A/B Testing cada desarrollador evaluará 2 versiones de la interfaz gráfica en los usuarios que tendrás que realizar diversas tareas relacionada con la funcionalidad de la aplicación. En cuanto al estudio del Recorrido pluralista el segundo grupo de desarrollador realizará una entrevista general con el grupo de participantes e irán discutiendo con ellos aspectos de la interfaz mientras ejecutan tareas que harían con la interfaz web.
+Las tareas que deberán realizar los usuarios incluyen actividades representativas de un uso real de la aplicación. Para el A/B Testing cada desarrollador evaluará 2 versiones de la interfaz gráfica en los usuarios que tendrán que realizar diversas tareas relacionada con la funcionalidad de la aplicación. En cuanto al estudio del Recorrido pluralista el segundo grupo de desarrollador realizará una entrevista general con el grupo de participantes e irán discutiendo con ellos aspectos de la interfaz mientras ejecutan tareas que harían con la interfaz web.
 
 
-Una vez finalizada esa evaluación de la interfaz, se dará paso a comparar ambos métodos donde se estudiará las encuestas SUS hecha por los desarrolladores y se encuestará a estos mismos para determinar la eficiencia y rendimiento percibido utilizando cada uno de las metodologías. Además se tendrá en cuenta la cantidad de errores encontrados en los usuarios en la aplicación de cada una de las metodologías.
+Una vez finalizada esa evaluación de la interfaz, se dará paso a comparar ambos métodos donde se estudiarán las encuestas SUS hecha por los desarrolladores y se encuestará a estos mismos para determinar la eficiencia y rendimiento percibido utilizando cada uno de las metodologías. Además se tendrá en cuenta la cantidad de errores encontrados en los usuarios en la aplicación de cada una de las metodologías.
 
 
 \section{Selección de sujetos}
@@ -186,7 +190,7 @@ Los participantes serán reclutados a través de convocatorias internas en facul
 Los usuarios serán reclutados mediante muestreo por conveniencia en entornos académicos y profesionales, asegurando la diversidad en género, edad y nivel de experiencia tecnológica. Se utilizarán anuncios en redes sociales, mailing lists y carteles en espacios públicos.
 \end{itemize}
 
-Antes de iniciar el experimento, cada participante completará un cuestionario demográfico donde se recogerán datos como edad, nivel educativo, años de experiencia en desarrollo, conocimiento previo de técnicas de evaluación de usabilidad y frecuencia de participación en proyectos web. Esta información servirá para describir la muestra y analizar posibles correlaciones entre la experiencia previa y las percepciones de los métodos evaluados.
+Como se comentó en el anterior apartado, cada participante completará un cuestionario demográfico donde se recogerán datos como edad, nivel educativo, años de experiencia en desarrollo, conocimiento previo de técnicas de evaluación de usabilidad y frecuencia de participación en proyectos web. Esta información servirá para describir la muestra y analizar posibles correlaciones entre la experiencia previa y las percepciones de los métodos evaluados.
 
 \subsection*{Consideraciones éticas}
 El estudio cumplirá con los principios éticos establecidos por la Declaración de Helsinki y las normas institucionales sobre investigación con participantes humanos. Todos los sujetos firmarán un consentimiento informado en el que se garantice:
