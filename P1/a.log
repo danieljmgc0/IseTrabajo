@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.31)  2 NOV 2025 14:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.31)  2 NOV 2025 14:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex
-(c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex
+**c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex
+(c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-24>
 (c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
@@ -538,7 +538,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 
-c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex:22: Undefined control sequence.
+c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex:22: Undefined control sequence.
 \csq@main@language ->\bbl@main@language 
                                         
 l.22 \begin{document}
@@ -549,7 +549,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex:22: Undefined control sequence.
+c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex:22: Undefined control sequence.
 \csq@main@language ->\bbl@main@language 
                                         
 l.22 \begin{document}
@@ -565,8 +565,8 @@ Package csquotes Warning: No style for language ''.
 (csquotes)                Using fallback style on input line 22.
 
 Package csquotes Info: Redefining alias 'default' -> 'fallback'.
-(./Trabajo1.aux)
-\openout1 = `Trabajo1.aux'.
+(./a.aux)
+\openout1 = `a.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
@@ -626,7 +626,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex:22: Undefined control sequence.
+c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex:22: Undefined control sequence.
 \__hook begindocument ...fter {\bbl@main@language 
                                                   }\ifbbl@single \renewcomma...
 l.22 \begin{document}
@@ -639,7 +639,7 @@ and I'll forget about whatever was undefined.
 
 Runaway argument?
 \@m \let \normalsfcodes \frenchspacing \else \let \normalsfcodes \nonfrenchspacing \ETC.
-c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex:23: Paragraph ended before \bbl@tempe was complete.
+c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex:23: Paragraph ended before \bbl@tempe was complete.
 <to be read again> 
                    \par 
 l.23 
@@ -648,7 +648,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex:27: TeX capacity exceeded, sorry [input stack size=10000].
+c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex:27: TeX capacity exceeded, sorry [input stack size=10000].
 \@setfontsize #1#2#3->\@nomath #1
                                  \ifx \protect \@typeset@protect \let \@curr...
 l.27     {\Huge
@@ -659,10 +659,10 @@ you can ask a wizard to enlarge me.
  
 Here is how much of TeX's memory you used:
  17341 strings out of 469728
- 304482 string characters out of 5475099
- 949340 words of memory out of 5000000
+ 304412 string characters out of 5475099
+ 949319 words of memory out of 5000000
  45644 multiletter control sequences out of 15000+600000
  628783 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 10000i,0n,15000p,756b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
-c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex:27:  ==> Fatal error occurred, no output PDF file produced!
+ 10000i,0n,15000p,749b,196s stack positions out of 10000i,1000n,20000p,200000b,200000s
+c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex:27:  ==> Fatal error occurred, no output PDF file produced!

@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1762089779.58887 "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" "a.pdf" "a" 1762089780.85471 2
-  "a.aux" 1762089780 104 5a72887fb73856b518f793864d670542 "pdflatex"
-  "a.tex" 1762089777 28644 be994f0ba344ee0d237fabbd0478b363 ""
+["pdflatex"] 1762090218.43756 "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex" "Trabajo1.pdf" "Trabajo1" 1762090219.68757 2
+  "Trabajo1.aux" 1762090219 104 5a72887fb73856b518f793864d670542 "pdflatex"
+  "Trabajo1.tex" 1762090216 29941 5e80d40692a6c3fe1ecd87f2acae681b ""
   "c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1761928094 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1761928097 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/babel/babel.sty" 1761928105 145885 784cdd1ebbc3dbacabd5ee30707617a3 ""
@@ -73,9 +73,9 @@
   "c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/web2c/texmf.cnf" 1761928116 42213 4e2ca030e8e2640502016e9e45868dcb ""
   "c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1761928117 2228713 ddfbd8e1fbeee779fe79bfcbebd3b0f5 ""
   "c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf.cnf" 1761928151 956 b1b02114e0ad806b8e5e4bf93f21abb8 ""
-  "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex" 1762089777 28644 be994f0ba344ee0d237fabbd0478b363 ""
+  "c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex" 1762090216 29941 5e80d40692a6c3fe1ecd87f2acae681b ""
   (generated)
-  "a.aux"
-  "a.log"
-  "a.pdf"
+  "Trabajo1.aux"
+  "Trabajo1.log"
+  "Trabajo1.pdf"
   (rewritten before read)

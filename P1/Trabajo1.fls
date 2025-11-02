@@ -2,8 +2,8 @@ PWD c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf.cnf
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/web2c/texmf.cnf
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/a.tex
-OUTPUT a.log
+INPUT c:/Users/USUARIO/Documents/Sergio/Master/ISE/IseTrabajo/P1/Trabajo1.tex
+OUTPUT Trabajo1.log
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/report.cls
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12.clo
@@ -148,10 +148,10 @@ INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csq
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/csquotes/csquotes.cfg
-INPUT ./a.aux
-INPUT ./a.aux
-INPUT a.aux
-OUTPUT a.aux
+INPUT ./Trabajo1.aux
+INPUT ./Trabajo1.aux
+INPUT Trabajo1.aux
+OUTPUT Trabajo1.aux
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/Users/USUARIO/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
