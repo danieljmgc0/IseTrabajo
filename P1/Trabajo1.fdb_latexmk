@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber Trabajo1"] 1762091460.0108 "Trabajo1.bcf" "Trabajo1.bbl" "Trabajo1" 1762091949.8635 0
-  "Trabajo1.bcf" 1762091949.63405 107185 40700a2197c5e395c79b190590320ed8 "pdflatex"
+["biber Trabajo1"] 1762091460.0108 "Trabajo1.bcf" "Trabajo1.bbl" "Trabajo1" 1762186508.78469 0
+  "Trabajo1.bcf" 1762186508.56252 107185 40700a2197c5e395c79b190590320ed8 "pdflatex"
   "biblio.bib" 1760906554.46277 2219 95fc177e941ebc2ebd9ba04a816c950b ""
   (generated)
   "Trabajo1.bbl"
   "Trabajo1.blg"
   (rewritten before read)
-["pdflatex"] 1762091947.35322 "/home/angela-caiqing/Documentos/UPV/ISE/IseTrabajo/P1/Trabajo1.tex" "Trabajo1.pdf" "Trabajo1" 1762091949.86441 0
+["pdflatex"] 1762186506.34598 "/home/angela-caiqing/Documentos/UPV/ISE/IseTrabajo/P1/Trabajo1.tex" "Trabajo1.pdf" "Trabajo1" 1762186508.78553 0
   "/etc/texmf/web2c/texmf.cnf" 1759431930.76365 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/angela-caiqing/Documentos/UPV/ISE/IseTrabajo/P1/Trabajo1.tex" 1762091946.95808 29545 39eccea9fd8ab944b30d97e6fe47fe14 ""
+  "/home/angela-caiqing/Documentos/UPV/ISE/IseTrabajo/P1/Trabajo1.tex" 1762186505.96681 30908 ad022f70c894c509c85d258a7c9fa6d1 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm" 1136768653 3584 13049b61b922a28b158a38aeff75ee9b ""
@@ -128,11 +128,11 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1759784660.05465 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1759784750 8213189 cba5a8b9ecb65947872103de71ffb379 ""
-  "Trabajo1.aux" 1762091949.62505 3907 d507b8f796bc23dc6ea29af8dde3b2af "pdflatex"
+  "Trabajo1.aux" 1762186508.55452 3907 d507b8f796bc23dc6ea29af8dde3b2af "pdflatex"
   "Trabajo1.bbl" 1762091462.04644 6109 af78052e7affd4542bfee7cc96394233 "biber Trabajo1"
-  "Trabajo1.out" 1762091949.63105 2564 4e15b320c45a18ce99daed09fa00ffe0 "pdflatex"
-  "Trabajo1.run.xml" 1762091949.63605 2329 2d4c9288a09018fd56cd597d458e1894 "pdflatex"
-  "Trabajo1.tex" 1762091946.95808 29545 39eccea9fd8ab944b30d97e6fe47fe14 ""
+  "Trabajo1.out" 1762186508.55952 2564 4e15b320c45a18ce99daed09fa00ffe0 "pdflatex"
+  "Trabajo1.run.xml" 1762186508.56476 2329 2d4c9288a09018fd56cd597d458e1894 "pdflatex"
+  "Trabajo1.tex" 1762186505.96681 30908 ad022f70c894c509c85d258a7c9fa6d1 ""
   (generated)
   "Trabajo1.aux"
   "Trabajo1.bcf"
